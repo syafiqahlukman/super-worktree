@@ -62,12 +62,14 @@ Then, once the feature that I have been working on just now is complete, I merge
     git  worktree  remove  ../features1-worktree
     
 Before pushing this to the remote repository, I need to esnure that I have integrate the changes from the remote `main` branch into my  local `main` branch. So I fetch and merger the latest changes from remote repository using  `git pull`. If you're working in a team or on a public repository where others might be pushing changes, it's a good practice to frequently pull changes from the remote repository to avoid such conflicts.
- ```
-git pull origin main
-```
+
+    git pull origin main
  
 Finally, I push the changes to the remote repository 
-```
-   git push --set-upstream origin main
-   ```
+ 
+    git push --set-upstream origin main
+
+    
+ 
+   
 
